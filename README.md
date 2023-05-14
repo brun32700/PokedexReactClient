@@ -1,5 +1,5 @@
 # PokedexReactClient
-This is a WIP front-end client created using React to consume the PokedexWebApi project.
+This is a WIP front-end client created using React to consume the [PokedexWebApi](https://github.com/brun32700/PokedexWebApi) project.
 
 
 ## How to run the React client on local computer?
