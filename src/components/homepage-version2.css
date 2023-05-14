@@ -1,0 +1,169 @@
+li {
+    list-style-type: none;
+    font-family: monospace, sans-serif;
+  }
+  
+img {
+  background-color: whitesmoke;
+}
+
+/* Unordered List flex box*/
+  
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+  
+.flex-item {
+  /*4 pokemon profiles per row*/
+  flex: 0 0 25%;
+}
+
+.horizontal {
+  /*Align pokemon profiles horizontally*/
+  flex-direction: row;
+  background-color: white;
+}
+
+.vertical {
+  /*Align pokemon properties vertically*/
+  flex-direction: column;
+  background-color: white;
+}
+
+/*Pokemon design*/
+
+.pokemon-profile {
+  /*Align make divs same width as image*/
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.pokemon-info {
+  padding-left: 5%;
+}
+
+.pokemon-pokedex-number {
+  color: gray;
+}
+
+.pokemon-name {
+  font-size: 30px;
+  font-weight: normal;
+  color: black;
+  padding-top: 5%;
+}
+
+.pill {
+  float: left;
+
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 4px;
+  width: 80px;
+  font-size: 14px;
+  line-height: 7px;
+  text-align: center;
+}
+
+/*Pokemon types pill design*/
+
+.background-colour-bug {
+  background-color: #729f3f;
+}
+
+.background-colour-dragon {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
+
+.background-colour-fairy {
+  background-color: #fdb9e9;
+}
+
+.background-colour-fire {
+  background-color: #fd7d24;
+}
+
+.background-colour-ghost {
+  background-color: #7b62a3;
+}
+
+.background-colour-ground {
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+
+.background-colour-normal {
+  background-color: #a4acaf;
+}
+
+.background-colour-psychic {
+  background-color: #f366b9;
+}
+
+.background-colour-steel {
+  background-color: #9eb7b8;
+}
+
+.background-colour-dark {
+  background-color: #707070;
+}
+
+.background-colour-electric {
+  background-color: #eed535;
+}
+
+.background-colour-fighting {
+  background-color: #d56723;
+}
+
+.background-colour-flying {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.background-colour-grass {
+  background-color: #9bcc50;
+}
+
+.background-colour-ice {
+  background-color: #51c4e7;
+}
+
+.background-colour-poison {
+  background-color: #b97fc9;
+}
+
+.background-colour-rock {
+  background-color: #a38c21;
+}
+
+.background-colour-water {
+  background-color: #4592c4;
+}
+
+.background-colour-fairy,
+.background-colour-ground,
+.background-colour-normal,
+.background-colour-steel,
+.background-colour-electric,
+.background-colour-flying,
+.background-colour-grass,
+.background-colour-ice
+{
+  color: black;
+}
+
+.background-colour-bug,
+.background-colour-dragon,
+.background-colour-fire,
+.background-colour-ghost,
+.background-colour-psychic,
+.background-colour-dark,
+.background-colour-fighting,
+.background-colour-poison,
+.background-colour-rock,
+.background-colour-water 
+{
+  color: white;
+}

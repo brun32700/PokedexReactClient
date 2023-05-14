@@ -1,0 +1,29 @@
+li {
+    list-style-type: none;
+    float: left;
+  }
+  
+  .pill {
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0px 5px;
+    float: left;
+    
+    display: inline-block;
+    width: 80px;
+    
+    text-align: center;
+    font-size: 14px;
+    
+    line-height: 9px;
+  }
+  
+  .background-colour-grass {
+    background-color: #9bcc50;
+    color: black;
+  }
+  
+  .background-colour-poison {
+    background-color: #b97fc9;
+    color: white;
+  }
